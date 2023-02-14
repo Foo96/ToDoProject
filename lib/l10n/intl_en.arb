@@ -1,0 +1,92 @@
+{
+    "ThisField" :                                               "This field",
+    "Skip":                                                     "Skip",
+    "Continue":                                                 "Continue",
+    "Next":                                                     "Next",
+    "GetStart":                                                 "Get's Start",
+    "DailyPlanFor":                                             "Daily Plan for ",
+    "MyPlan":                                                   "My Plan",
+    "Total":                                                    "Total",
+    "Completed":                                                "Completed",
+    "InProgress":                                               "In Progress",
+    "Overview":                                                 "Overview",
+    "SeeAll":                                                   "See All",
+    "Confirmation":                                             "Confirmation",
+    "Warning":                                                  "Warning",
+    "Success":                                                  "Success",
+    "TodayTaskQty" :                                            "You've got {total} tasks today.",
+    "Ok":                                                       "Ok",
+    "Confirm":                                                  "Confirm",
+    "Cancel":                                                   "Cancel",
+    "CreatePlan":                                               "Create Plan",
+    "ModifyPlan":                                               "Modify Plan",
+    "DeletePlan":                                               "Delete Plan",
+    "Date":                                                     "Date",
+    "Category":                                                 "Category",
+    "Priority":                                                 "Priority",
+    "Status":                                                   "Status",
+    "Description":                                              "Description",
+    "Title":                                                    "Title",
+    "Apply":                                                    "Apply",
+    "Home":                                                     "Home",
+    "About":                                                    "About",
+    "languageCode":                                             "{code, select, en{ENG} zh{CHI} ms{MAY} other{LAIN-LAIN}}",
+    "@languageCode": {
+        "description": "language code",
+        "placeholders": {
+            "code": {}
+        }
+    },
+    "languageName":                                             "{code, select, en{ENGLISH} zh{华语} ms{BAHASA MELAYU} other{OTHERS}}",
+    "@languageName": {
+        "description": "language full name",
+        "placeholders": {
+            "code": {}
+        }
+    },
+    "LanguageSettings":                                         "Language Settings",
+    "@TodayTaskQty" : {                
+        "description" : "today task quantity",       
+        "placeholders": {       
+            "total":{}
+        }       
+    },   
+    "CompletedQty" :                                            "{done} / {total} Completed",
+    "@CompletedQty" : {                
+        "description" : "completed quantity",       
+        "placeholders": {       
+            "done": {},
+            "total":{}
+        }       
+    },   
+
+    "MsgLaunchingApp":                                          "Please wait while, getting everything ready...",
+    "MsgProcessRequest":                                        "Plaese wait while, we are processing your request...", 
+    "MsgWelcome":                                               "Hello, Welcom back!", 
+    "MsgConfirmDeleteToDoItem":                                 "Are you sure want to delete this item?", 
+    "MsgChangePriority":                                        "Are you sure want to change your priority from {previous} to {news}?" ,  
+    "@MsgChangePriority" : {                
+        "description" : "change priority",       
+        "placeholders": {       
+            "previous": {},
+            "news":{}
+        }       
+    },   
+    
+    "MsgItemNoFound":                                           "Item Not Found",
+    
+
+    "MsgItemCreateSuccess":                                     "Item successfully created",
+    "MsgItemModifySuccess":                                     "Item successfully modified",
+    "MsgItemDeleteSuccess":                                     "Item successfully deleted",
+
+    "MsgValidFieldRequired":                                    " is a required item.",
+    "MsgValidErrorPhoneInvalid":                                "Please enter valid mobile number",
+    "MsgValidErrorEmailInvalid":                                "Please enter valid email address",
+    "MsgValidErrorVerifyCodeInvalid":                           "Please enter valid verification code",
+    "MsgValidErrorOTPEmpty":                                    "Please enter your OTP number",
+    "MsgValidErrorOTPInvalid":                                  "Please enter valid OTP number",
+    "MsgValidErrorPInNotSame":                                  "Both PINs must be the same",
+    "MsgValidErrorNameInvalid":                                 "Please enter valid name with letter and spaces only",
+    "MsgValidProfileIncomplete":                                "Your profile is incomplete. Kindly update!"
+}
